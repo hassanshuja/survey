@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 use Auth;
 use DB;
+use App\Question;
 
 class QuestionController extends Controller
 {
@@ -42,8 +44,17 @@ class QuestionController extends Controller
   		return redirect()->route( 'successlink' )->with(['link' => $random_link ]);
     }
 
-    public function info(){
-    	 dd('hi');
+    public function info($link){ 	
+    	
+    	$query = DB::table('link_data')->where('link', $link);
+      $res = $query->get();
+
+      $all_question = json_decode($res[0]->question_json);
+
+      $questions = Question::whereIn('q_no', $all_question)->get();
+
+      dd($questions);
+      
     }
 
 }
