@@ -53,9 +53,21 @@ class QuestionController extends Controller
 
       $questions = Question::whereIn('q_no', $all_question)->get();
 
-      // dd($questions);
+      // dd($questions, $all_question);
 
-      return \View::make('questions', compact('questions'));
+      return \View::make('questions', compact('questions','link'));
+    }
+
+    public function submitAnswer(Request $request) {
+      $uri = $request->path();
+      dd($uri, $request->all());
+      $data = $request->all();
+      unset($answers['_token']);
+      $answers = json_encode($data);
+      
+      foreach($data as $key => $value) {
+        dd($key, $value);
+      }
     }
 
 }

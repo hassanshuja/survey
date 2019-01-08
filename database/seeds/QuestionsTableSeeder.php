@@ -13,7 +13,7 @@ class QuestionsTableSeeder extends Seeder
     {
         $question = new Question();
      	$question->create([
-            'q_no'     => '1.1',
+            'q_no'     => '1_1',
             'question' => 'State the name, ADDRESS, telephone number, and
 							relationship to you of each PERSON who prepared or
 							assisted in the preparation of the responses to these
@@ -21,19 +21,19 @@ class QuestionsTableSeeder extends Seeder
 							reproduced the responses.)'
         ]);
         $question->create([
-            'q_no'     => '2.1',
+            'q_no'     => '2_1',
             'question' => 'State:<br>
 	                        (a) your name;<br>
 	                        (b) every name you have used in the past; and
 	                        (c) the dates you used each name.<br>'
         ]);
         $question->create([
-            'q_no'     => '2.2',
+            'q_no'     => '2_2',
             'question' => 'State the date and place of your birth.'
         ]);
         $question->create([
-            'q_no'     => '2.3',
-            'question' => '2.3 At the time of the INCIDENT, did you have a driver\'s
+            'q_no'     => '2_3',
+            'question' => 'At the time of the INCIDENT, did you have a driver\'s
                                         license? If so state:<br>
                                         (a) the state or other issuing entity<br>
                                         (b) the license number and type<br>
@@ -41,7 +41,7 @@ class QuestionsTableSeeder extends Seeder
                                         (d) all restrictions.<br>'
         ]);
         $question->create([
-            'q_no'     => '2.4',
+            'q_no'     => '2_4',
             'question' => 'At the time of the INCIDENT, did you have any other
                             permit or license for the operation of a motor vehicle? If so,
                             state:<br>
@@ -51,14 +51,14 @@ class QuestionsTableSeeder extends Seeder
                             (d) all restrictions.'
         ]);
         $question->create([
-            'q_no'     => '2.5',
+            'q_no'     => '2_5',
             'question' => 'State:<br>
                             (a) your present residence ADDRESS;<br>
                             (b) your residence ADDRESSES for the past five years; and
                             (c) the dates you lived at each ADDRESS.'
         ]);
         $question->create([
-            'q_no'     => '2.6',
+            'q_no'     => '2_6',
             'question' => 'State:
                             (a) the name, ADDRESS, and telephone number of your
                             present employer or place of self-employment; and <br>
@@ -68,7 +68,7 @@ class QuestionsTableSeeder extends Seeder
                             the INCIDENT until today.'
         ]);
         $question->create([
-            'q_no'     => '2.7',
+            'q_no'     => '2_7',
             'question' => ' State:
                             (a) the name and ADDRESS of each school or other
                             academic or vocational institution you have attended,
@@ -78,7 +78,7 @@ class QuestionsTableSeeder extends Seeder
                             (d) the degrees received.'
         ]);
         $question->create([
-            'q_no'     => '2.8',
+            'q_no'     => '2_8',
             'question' => 'Have you ever been convicted of a felony? If so, for
                             each conviction state:<br>
                             (a) the city and state where you were convicted;<br>
@@ -87,17 +87,17 @@ class QuestionsTableSeeder extends Seeder
                             (d) the court and case number.'
         ]);
         $question->create([
-            'q_no'     => '2.9',
+            'q_no'     => '2_9',
             'question' => 'Can you speak English with ease? If not, what
                             language and dialect do you normally use?'
         ]);
         $question->create([
-            'q_no'     => '2.10',
+            'q_no'     => '2_10',
             'question' => 'Can you read and write English with ease? If not, what
                     		language and dialect do you normally use?'
         ]);
         $question->create([
-            'q_no'     => '2.11',
+            'q_no'     => '2_11',
             'question' => 'At the time of the INCIDENT were you acting as an
                             agent or employee for any PERSON? If so, state:<br>
                             (a) the name, ADDRESS, and telephone number of that
@@ -105,7 +105,7 @@ class QuestionsTableSeeder extends Seeder
                             (b) a description of your duties.'
         ]);
         $question->create([
-            'q_no'     => '2.12',
+            'q_no'     => '2_12',
             'question' => 'At the time of the INCIDENT did you or any other
                             person have any physical, emotional, or mental disability or
                             condition that may have contributed to the occurrence of the
@@ -116,7 +116,7 @@ class QuestionsTableSeeder extends Seeder
                             contributed to the occurrence of the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '2.13',
+            'q_no'     => '2_13',
             'question' => 'Within 24 hours before the INCIDENT did you or any
                             person involved in the INCIDENT use or take any of the
                             following substances: alcoholic beverage, marijuana, or
@@ -138,7 +138,7 @@ class QuestionsTableSeeder extends Seeder
                             prescribed or furnished.'
         ]);
         $question->create([
-            'q_no'     => '3.1',
+            'q_no'     => '3_1',
             'question' => 'Are you a corporation? If so, state:
                                 (a) the name stated in the current articles of incorporation; <br>
                                 (b) all other names used by the corporation during the past 
@@ -148,7 +148,7 @@ class QuestionsTableSeeder extends Seeder
                                 (e) whether you are qualified to do business in California.'
         ]);
         $question->create([
-            'q_no'     => '3.2',
+            'q_no'     => '3_2',
             'question' => 'Are you a partnership? If so, state:<br>
                             (a) the current partnership name;<br>
                             (b) all other names used by the partnership during the past
@@ -159,7 +159,7 @@ class QuestionsTableSeeder extends Seeder
                             (e) the ADDRESS of the principal place of business.'
         ]);
         $question->create([
-            'q_no'     => '3.3',
+            'q_no'     => '3_3',
             'question' => 'Are you a limited liability company? If so, state:<br>
                             (a) the name stated in the current articles of organization;<br>
                             (b) all other names used by the company during the past 10
@@ -169,7 +169,7 @@ class QuestionsTableSeeder extends Seeder
                             (e) whether you are qualified to do business in California.'
         ]);
         $question->create([
-            'q_no'     => '3.4',
+            'q_no'     => '3_4',
             'question' => 'Are you a joint venture? If so, state:<br>
                                 (a) the current joint venture name;<br>
                                 (b) all other names used by the joint venture during the
@@ -178,7 +178,7 @@ class QuestionsTableSeeder extends Seeder
                                 (d) the ADDRESS of the principal place of business.'
         ]);
         $question->create([
-            'q_no'     => '3.5',
+            'q_no'     => '3_5',
             'question' => 'Are you an unincorporated association?
                                 If so, state:<br>
                                 (a) the current unincorporated association name;<br>
@@ -188,7 +188,7 @@ class QuestionsTableSeeder extends Seeder
                                 (c) the ADDRESS of the principal place of business.'
         ]);
         $question->create([
-            'q_no'     => '3.6',
+            'q_no'     => '3_6',
             'question' => 'Have you done business under a fictitious name during
                                 the past 10 years? If so, for each fictitious name state:<br>
                                 (a) the name;<br>
@@ -197,7 +197,7 @@ class QuestionsTableSeeder extends Seeder
                                 (d) the ADDRESS of the principal place of business.'
         ]);
         $question->create([
-            'q_no'     => '3.7',
+            'q_no'     => '3_7',
             'question' => 'Within the past five years has any public entity regis-
                                 tered or licensed your business? If so, for each license or
                                 registration:<br>
@@ -206,7 +206,7 @@ class QuestionsTableSeeder extends Seeder
                                 (c) state the dates of issuance and expiration.'
         ]);
         $question->create([
-            'q_no'     => '4.1',
+            'q_no'     => '4_1',
             'question' => ' At the time of the INCIDENT, was there in effect any
                                 policy of insurance through which you were or might be
                                 insured in any manner (for example, primary, pro-rata, or
@@ -227,24 +227,24 @@ class QuestionsTableSeeder extends Seeder
                                 custodian of the policy.'
         ]);
         $question->create([
-            'q_no'     => '4.2',
+            'q_no'     => '4_2',
             'question' => 'Are you self-insured under any statute for the damages,
                                 claims, or actions that have arisen out of the INCIDENT? If
                                 so, specify the statute.'
         ]);
         $question->create([
-            'q_no'     => '6.1',
+            'q_no'     => '6_1',
             'question' => 'Do you attribute any physical, mental, or emotional
                                     injuries to the INCIDENT? (If your answer is “no,” do not
                                     answer interrogatories 6.2 through 6.7).'
         ]);
         $question->create([
-            'q_no'     => '6.2',
+            'q_no'     => '6_2',
             'question' => 'Identify each injury you attribute to the INCIDENT and
                                 the area of your body affected.'
         ]);
         $question->create([
-            'q_no'     => '6.3',
+            'q_no'     => '6_3',
             'question' => 'Do you still have any complaints that you attribute to
                                 the INCIDENT? If so, for each complaint state:
                                 (a) a description;
@@ -253,7 +253,7 @@ class QuestionsTableSeeder extends Seeder
                                 (c) the frequency and duration.'
         ]);
         $question->create([
-            'q_no'     => '6.4',
+            'q_no'     => '6_4',
             'question' => 'Did you receive any consultation or examination
                                 (except from expert witnesses covered by Code of Civil
                                 Procedure sections 2034.210–2034.310) or treatment from a
@@ -268,7 +268,7 @@ class QuestionsTableSeeder extends Seeder
                                 (d) the charges to date.'
         ]);
         $question->create([
-            'q_no'     => '6.5',
+            'q_no'     => '6_5',
             'question' => 'Have you taken any medication, prescribed or not, as a
                                 result of injuries that you attribute to the INCIDENT? If so,
                                 for each medication state:<br>
@@ -279,7 +279,7 @@ class QuestionsTableSeeder extends Seeder
                                 (e) the cost to date.'
         ]);
         $question->create([
-            'q_no'     => '6.6',
+            'q_no'     => '6_6',
             'question' => 'Are there any other medical services necessitated by
                                 the injuries that you attribute to the INCIDENT that were not
                                 previously listed (for example, ambulance, nursing,
@@ -291,7 +291,7 @@ class QuestionsTableSeeder extends Seeder
                                 of each provider.'
         ]);
         $question->create([
-            'q_no'     => '6.7',
+            'q_no'     => '6_7',
             'question' => 'Has any HEALTH CARE PROVIDER advised that you
                                 may require future or additional treatment for any injuries
                                 that you attribute to the INCIDENT? If so, for each injury
@@ -303,7 +303,7 @@ class QuestionsTableSeeder extends Seeder
                                 treatment.'
         ]);
         $question->create([
-            'q_no'     => '7.1',
+            'q_no'     => '7_1',
             'question' => 'Do you attribute any loss of or damage to a vehicle or
                                 other property to the INCIDENT? If so, for each item of
                                 property:<br>
@@ -317,7 +317,7 @@ class QuestionsTableSeeder extends Seeder
                                 sale price.'
         ]);
         $question->create([
-            'q_no'     => '7.2',
+            'q_no'     => '7_2',
             'question' => 'Has a written estimate or evaluation been made for any
                                 item of property referred to in your answer to the preceding
                                 interrogatory? If so, for each estimate or evaluation state:
@@ -328,9 +328,9 @@ class QuestionsTableSeeder extends Seeder
                                 (c) the amount of damage stated.'
         ]);
         $question->create([
-            'q_no'     => '7.3',
+            'q_no'     => '7_3',
             'question' => 'Has any item of property referred to in your answer to
-                                interrogatory 7.1 been repaired? If so, for each item state:
+                                interrogatory 7_1 been repaired? If so, for each item state:
                                 (a) the date repaired;<br>
                                 (b) a description of the repair;<br>
                                 (c) the repair cost;<br>
@@ -340,41 +340,41 @@ class QuestionsTableSeeder extends Seeder
                                 PERSON who paid for the repair.'
         ]);
         $question->create([
-            'q_no'     => '8.1',
+            'q_no'     => '8_1',
             'question' => 'Do you attribute any loss of income or earning capacity
                                 to the INCIDENT? (If your answer is “no,” do not answer
                                 interrogatories 8.2 through 8.8).'
         ]);
         $question->create([
-            'q_no'     => '8.2',
+            'q_no'     => '8_2',
             'question' => 'State:<br>
                                 (a)the nature of your work<br>
                                 (b)your job title at the time of the INCIDENT; and<br>
                                 (c)the date your employment began.'
         ]);
         $question->create([
-            'q_no'     => '8.3',
+            'q_no'     => '8_3',
             'question' => 'State the last date before the INCIDENT that you  worked for compensation.'
         ]);
         $question->create([
-            'q_no'     => '8.4',
+            'q_no'     => '8_4',
             'question' => 'State your monthly income at the time of the INCIDENT and how the amount was calculated.'
         ]);
         $question->create([
-            'q_no'     => '8.5',
+            'q_no'     => '8_5',
             'question' => 'State the date you returned to work at each place of
                                 employment following the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '8.6',
+            'q_no'     => '8_6',
             'question' => 'State the dates you did not work and for which you lost income as a result of the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '8.7',
+            'q_no'     => '8_7',
             'question' => 'State the total income you have lost to date as a result  of the INCIDENT and how the amount was calculated.'
         ]);
         $question->create([
-            'q_no'     => '8.8',
+            'q_no'     => '8_8',
             'question' => 'Will you lose income in the future as a result of the
 							INCIDENT? If so, state: <br>
 							(a) the facts upon which you base this contention; <br>
@@ -383,7 +383,7 @@ class QuestionsTableSeeder extends Seeder
 							(d) how the claim for future income is calculated.' 
         ]);
         $question->create([
-            'q_no'     => '9.1',
+            'q_no'     => '9_1',
             'question' => 'Are there any other damages that you attribute to the
 							INCIDENT? If so, for each item of damage state: <br>
 							(a) the nature; <br>
@@ -393,12 +393,12 @@ class QuestionsTableSeeder extends Seeder
 							PERSON to whom an obligation was incurred.'
         ]);
         $question->create([
-            'q_no'     => '9.2',
+            'q_no'     => '9_2',
             'question' => 'Can you speak English with ease? If not, what
                             language and dialect do you normally use?'
         ]);
         $question->create([
-            'q_no'     => '10.1',
+            'q_no'     => '10_1',
             'question' => 'At any time before the INCIDENT did you have com-
 							plaints or injuries that involved the same part of your body
 							claimed to have been injured in the INCIDENT? If so, for
@@ -410,14 +410,14 @@ class QuestionsTableSeeder extends Seeder
 							who examined or treated you.'
         ]);
         $question->create([
-            'q_no'     => '10.2',
+            'q_no'     => '10_2',
             'question' => 'List all physical, mental, and emotional disabilities you
 							had immediately before the INCIDENT. (You may omit
 							mental or emotional disabilities unless you attribute any
 							mental or emotional injury to the INCIDENT.)'
         ]);
         $question->create([
-            'q_no'     => '10.3',
+            'q_no'     => '10_3',
             'question' => 'At any time after the INCIDENT, did you sustain
 							injuries of the kind for which you are now claiming
 							damages? If so, for each incident giving rise to an injury
@@ -432,7 +432,7 @@ class QuestionsTableSeeder extends Seeder
 							(e) the nature of the treatment and its duration.'
         ]);
         $question->create([
-            'q_no'     => '11.1',
+            'q_no'     => '11_1',
             'question' => 'Except for this action, in the past 10 years have you
 							filed an action or made a written claim or demand for
 							compensation for your personal injuries? If so, for each
@@ -452,7 +452,7 @@ class QuestionsTableSeeder extends Seeder
 							(f) a description of the injury.'
         ]);
         $question->create([
-            'q_no'     => '11.2',
+            'q_no'     => '11_2',
             'question' => 'In the past 10 years have you made a written claim or
 							demand for workers\' compensation benefits? If so, for each
 							claim or demand state: <br>
@@ -471,7 +471,7 @@ class QuestionsTableSeeder extends Seeder
 							Board. <br>'
         ]);
         $question->create([
-            'q_no'     => '12.1',
+            'q_no'     => '12_1',
             'question' => 'State the name, ADDRESS, and telephone number of each individual: <br>
                             (a)  who witnessed the  INCIDENT  or  the  events occurring immediately before or after the INCIDENT; <br>
                             (b)  who made any statement at the scene of the INCIDENT;<br>
@@ -479,14 +479,14 @@ class QuestionsTableSeeder extends Seeder
                             (d)  who YOU OR ANYONE  ACTING  ON  YOUR  BEHALF claim has knowledge of the INCIDENT (except for  expert witnesses covered by Code of Civil Procedure section 2034)'
         ]);
         $question->create([
-            'q_no'     => '12.2',
+            'q_no'     => '12_2',
             'question' => ' Have YOU OR ANYONE ACTING ON YOUR  BEHALF interviewed any individual concerning the INCIDENT? If so, for each 		individual state:<br> 
                             (a)  the  name,  ADDRESS,  and  telephone  number  of   the individual interviewed; <br>
                             (b)  the date of the interview; and<br>
                              (c)  the  name,  ADDRESS,  and  telephone  number  of   the      PERSON who conducted the interview'
         ]);
         $question->create([
-            'q_no'     => '12.3',
+            'q_no'     => '12_3',
             'question' => 'Have YOU  OR  ANYONE  ACTING  ON  YOUR BEHALF obtained a written or recorded statement from any individual concerning the INCIDENT? If so, for each statement state:<br>
                                 (a) the  name, ADDRESS, and  telephone  number of the individual from whom the statement was obtained;<br>
                                 (b) the  name, ADDRESS, and  telephone  number of the individual who obtained the statement;<br>
@@ -495,7 +495,7 @@ class QuestionsTableSeeder extends Seeder
 '
         ]);
         $question->create([
-            'q_no'     => '12.4',
+            'q_no'     => '12_4',
             'question' => 'Do YOU OR ANYONE ACTING ON YOUR BEHALF know of any photographs, films, or videotapes depicting any place, object, or 	individual concerning the INCIDENT or plaintiff\'s injuries? If so, state: <br>
                         (a)  the number of photographs or feet of film or videotape; <br>
                         (b)  the places, objects, or persons  photographed,  filmed,  or      videotaped; <br>
@@ -504,14 +504,14 @@ class QuestionsTableSeeder extends Seeder
                         (e)  the name,  ADDRESS,  and  telephone  number  of  each PERSON who has the original or a copy of the photographs, films, or videotapes.'
         ]);
         $question->create([
-            'q_no'     => '12.5',
+            'q_no'     => '12_5',
             'question' => 'Do YOU OR ANYONE ACTING ON YOUR BEHALF know of any diagram, reproduction, or model of any place or thing (except for 			items developed by expert witnesses covered by Code of Civil Procedure sections 2034.210– 2034.310) concerning the INCIDENT? If so, for each item state: <br>
                             (a)  the type (i.e., diagram, reproduction, or model);<br>
                             (b)  the subject matter; and<br>
                             (c)  the  name,  ADDRESS,  and  telephone  number of  each      PERSON who has it.'
         ]);
         $question->create([
-            'q_no'     => '12.6',
+            'q_no'     => '12_6',
             'question' => 'Was a report made by any PERSON concerning the INCIDENT? If so, state:<br>
                             (a)  the name,  title,  identification  number,  and  employer  of      the PERSON who made the report;<br>
                             (b)  the date and type of report made;<br>
@@ -519,13 +519,13 @@ class QuestionsTableSeeder extends Seeder
                             (d)  the name,  ADDRESS,  and   telephone  number  of each      PERSON who has the original or a copy of the report.'
         ]);
         $question->create([
-            'q_no'     => '12.7',
+            'q_no'     => '12_7',
             'question' => 'Have YOU OR ANYONE ACTING ON YOUR  BEHALF inspected the scene of the INCIDENT? If so, for each inspection state:<br>
                             (a)  the  name,  ADDRESS,  and  telephone   number  of   the individual making the inspection (except for expert witnesses covered  by  Code of  Civil  Procedure  sections 2034.210–2034.310); and <br>
                             (b)  the date of the inspection.'
         ]);
         $question->create([
-            'q_no'     => '13.1',
+            'q_no'     => '13_1',
             'question' => 'Have YOU OR ANYONE ACTING ON YOUR BEHALF conducted surveillance of any individual involved in the INCIDENT or any party to this action? If so, for each sur- veillance state:<br>
                         (a)  the  name,  ADDRESS,  and  telephone  number   of   the      individual or party;<br>
                         (b)  the time, date, and place of the surveillance;<br>
@@ -533,7 +533,7 @@ class QuestionsTableSeeder extends Seeder
                         (d)  the name,  ADDRESS,  and  telephone  number  of  each PERSON who has the original or a copy of any surveillance photograph, film, or videotape.'
         ]);
         $question->create([
-            'q_no'     => '13.2',
+            'q_no'     => '13_2',
             'question' => 'In the past 10 years have you made a written claim or demand for workers\' compensation benefits? If so, for each claim or demand state:<br>
                                 (a)  the date, time, and place of the INCIDENT giving  rise  to the claim;
                                 (b)  the name, ADDRESS, and telephone number of your employer at the time of the injury;<br>
@@ -544,7 +544,7 @@ class QuestionsTableSeeder extends Seeder
                                 (g)  the case number at the Workers’ Compensation Appeals Board.'
         ]);
         $question->create([
-            'q_no'     => '14.1',
+            'q_no'     => '14_1',
             'question' => 'Do YOU OR ANYONE ACTING ON YOUR BEHALF
 							contend that any PERSON involved in the INCIDENT
 							violated any statute, ordinance, or regulation and that the
@@ -554,7 +554,7 @@ class QuestionsTableSeeder extends Seeder
 							was violated'
         ]);
         $question->create([
-            'q_no'     => '14.2',
+            'q_no'     => '14_2',
             'question' => 'Was any PERSON cited or charged with a violation of
 							any statute, ordinance, or regulation as a result of this
 							INCIDENT? If so, for each PERSON state: <br>
@@ -567,7 +567,7 @@ class QuestionsTableSeeder extends Seeder
 							agency, names of the parties, and case number.'
         ]);
         $question->create([
-            'q_no'     => '15.1',
+            'q_no'     => '15_1',
             'question' => 'Identify each denial of a material allegation and each
 							special or affirmative defense in your pleadings and for
 							each: <br>
@@ -582,7 +582,7 @@ class QuestionsTableSeeder extends Seeder
 							the PERSON who has each DOCUMENT.'
         ]);
         $question->create([
-            'q_no'     => '16.1',
+            'q_no'     => '16_1',
             'question' => 'Do you contend that any PERSON, other than you or
 							plaintiff, contributed to the occurrence of the INCIDENT or
 							the injuries or damages claimed by plaintiff? If so, for each
@@ -598,7 +598,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.2',
+            'q_no'     => '16_2',
             'question' => 'Do you contend that plaintiff was not injured in the
 							INCIDENT? If so: <br> 
 							(a) state all facts upon which you base your contention;<br> 
@@ -610,7 +610,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.3',
+            'q_no'     => '16_3',
             'question' => 'Do you contend that the injuries or the extent of the
 							injuries claimed by plaintiff as disclosed in discovery
 							proceedings thus far in this case were not caused by the
@@ -625,7 +625,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.4',
+            'q_no'     => '16_4',
             'question' => 'Do you contend that any of the services furnished by
 							any HEALTH CARE PROVIDER claimed by plaintiff in
 							discovery proceedings thus far in this case were not due to
@@ -640,7 +640,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.5',
+            'q_no'     => '16_5',
             'question' => 'Do you contend that any of the costs of services
 							furnished by any HEALTH CARE PROVIDER claimed as
 							damages by plaintiff in discovery proceedings thus far in
@@ -655,7 +655,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.6',
+            'q_no'     => '16_6',
             'question' => 'Do you contend that any part of the loss of earnings or
 							income claimed by plaintiff in discovery proceedings thus far
 							in this case was unreasonable or was not caused by the
@@ -670,7 +670,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.7',
+            'q_no'     => '16_7',
             'question' => 'Do you contend that any of the property damage
 							claimed by plaintiff in discovery Proceedings thus far in this
 							case was not caused by the INCIDENT? If so: <br>
@@ -684,7 +684,7 @@ class QuestionsTableSeeder extends Seeder
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.8',
+            'q_no'     => '16_8',
             'question' => 'Do you contend that any of the costs of repairing the
 property damage claimed by plaintiff in discovery
 proceedings thus far in this case were unreasonable? If so:
@@ -698,7 +698,7 @@ proceedings thus far in this case were unreasonable? If so:
 							DOCUMENT or thing.'
         ]);
         $question->create([
-            'q_no'     => '16.9',
+            'q_no'     => '16_9',
             'question' => 'Do YOU OR ANYONE ACTING ON YOUR BEHALF
 							have any DOCUMENT (for example, insurance bureau
 							index reports) concerning claims for personal injuries made
@@ -711,7 +711,7 @@ proceedings thus far in this case were unreasonable? If so:
 							PERSON who has each DOCUMENT.'
         ]);
         $question->create([
-            'q_no'     => '16.10',
+            'q_no'     => '16_10',
             'question' => 'Do YOU OR ANYONE ACTING ON YOUR BEHALF
 							have any DOCUMENT concerning the past or present
 							physical, mental, or emotional condition of any plaintiff in
@@ -726,7 +726,7 @@ proceedings thus far in this case were unreasonable? If so:
 							PERSON who has each DOCUMENT.'
         ]);
         $question->create([
-            'q_no'     => '17.1',
+            'q_no'     => '17_1',
             'question' => 'Is your response to each request for admission served
 							with these interrogatories an unqualified admission? If not,
 							for each response that is not an unqualified admission: <br>
@@ -742,12 +742,12 @@ proceedings thus far in this case were unreasonable? If so:
         ]);
 
         $question->create([
-            'q_no'     => '20.1',
+            'q_no'     => '20_1',
             'question' => 'State the date, time, and place of the INCIDENT
 (closest street ADDRESS or intersection).'
         ]);
         $question->create([
-            'q_no'     => '20.2',
+            'q_no'     => '20_2',
             'question' => 'For each vehicle involved in the INCIDENT, state: <br>
 							(a) the year, make, model, and license number; <br>
 							(b) the name, ADDRESS, and telephone number of the
@@ -765,32 +765,32 @@ proceedings thus far in this case were unreasonable? If so:
 							consent to the driver to operate the vehicle.'
         ]);
         $question->create([
-            'q_no'     => '20.3',
+            'q_no'     => '20_3',
             'question' => 'State the ADDRESS and location where your trip
 began and the ADDRESS and location of your destination.'
         ]);
         $question->create([
-            'q_no'     => '20.4',
+            'q_no'     => '20_4',
             'question' => 'Describe the route that you followed from the
 							beginning of your trip to the location of the INCIDENT, and
 							state the location of each stop, other than routine traffic
 							stops, during the trip leading up to the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '20.5',
+            'q_no'     => '20_5',
             'question' => 'Describe the route that you followed from the
 							beginning of your trip to the location of the INCIDENT, and
 							state the location of each stop, other than routine traffic
 							stops, during the trip leading up to the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '20.6',
+            'q_no'     => '20_6',
             'question' => 'Did the INCIDENT occur at an intersection? If so,
 							describe all traffic control devices, signals, or signs at the
 							intersection.'
         ]);
         $question->create([
-            'q_no'     => '20.7',
+            'q_no'     => '20_7',
             'question' => 'Was there a traffic signal facing you at the time of the
 							INCIDENT? If so, state: <br>
 							(a) your location when you first saw it; <br>
@@ -800,7 +800,7 @@ began and the ADDRESS and location of your destination.'
 							saw it and the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '20.8',
+            'q_no'     => '20_8',
             'question' => 'State how the INCIDENT occurred, giving the speed,
 							direction, and location of each vehicle involved: <br>
 							(a) just before the INCIDENT; <br>
@@ -808,7 +808,7 @@ began and the ADDRESS and location of your destination.'
 							after the INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '20.9',
+            'q_no'     => '20_9',
             'question' => 'Do you have information that a malfunction or defect in
 							a vehicle caused the INCIDENT? If so: <br>
 							(a) identify the vehicle; <br>
@@ -820,7 +820,7 @@ began and the ADDRESS and location of your destination.'
 							each PERSON who has custody of each defective part.'
         ]);
         $question->create([
-            'q_no'     => '20.10',
+            'q_no'     => '20_10',
             'question' => 'Do you have information that any malfunction or
 							defect in a vehicle contributed to the injuries sustained in the
 							INCIDENT? If so: <br>
@@ -833,14 +833,14 @@ began and the ADDRESS and location of your destination.'
 each PERSON who has custody of each defective part.'
         ]);
         $question->create([
-            'q_no'     => '20.11',
+            'q_no'     => '20_11',
             'question' => 'State the name, ADDRESS, and telephone number of
 							each owner and each PERSON who has had possession
 							since the INCIDENT of each vehicle involved in the
 							INCIDENT.'
         ]);
         $question->create([
-            'q_no'     => '50.1',
+            'q_no'     => '50_1',
             'question' => 'For each agreement alleged in the pleadings: <br>  
 							(a) identify each DOCUMENT that is part of the agreement
 							and for each state the name, ADDRESS, and telephone
@@ -867,33 +867,33 @@ each PERSON who has custody of each defective part.'
 							PERSON who has the DOCUMENT.'
         ]);
         $question->create([
-            'q_no'     => '50.2',
+            'q_no'     => '50_2',
             'question' => 'Was there a breach of any agreement alleged in the
 							pleadings? If so, for each breach describe and give the date
 							of every act or omission that you claim is the breach of the
 							agreement.'
         ]);
         $question->create([
-            'q_no'     => '50.3',
+            'q_no'     => '50_3',
             'question' => 'Was performance of any agreement alleged in the
 							pleadings excused? If so, identify each agreement excused
 							and state why performance was excused.'
         ]);
         $question->create([
-            'q_no'     => '50.4',
+            'q_no'     => '50_4',
             'question' => 'Was any agreement alleged in the pleadings terminated
 							by mutual agreement, release, accord and satisfaction, or
 							novation? If so, identify each agreement terminated, the date
 							of termination, and the basis of the termination.'
         ]);
         $question->create([
-            'q_no'     => '50.5',
+            'q_no'     => '50_5',
             'question' => 'Is any agreement alleged in the pleadings unenforce-
 							able? If so, identify each unenforceable agreement and
 							state why it is unenforceable.'
         ]);
         $question->create([
-            'q_no'     => '50.6',
+            'q_no'     => '50_6',
             'question' => 'Is any agreement alleged in the pleadings ambiguous?
 							If so, identify each ambiguous agreement and state why it is
 							ambiguous.'

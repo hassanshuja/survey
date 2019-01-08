@@ -23,6 +23,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::post('/generateFile', 'QuestionController@generateFile')->name('generateFile');
 Route::get('/successlink', 'HomeController@successlink')->name('successlink');
+Route::post('/submitAnswer', 'QuestionController@submitAnswer')->name('submitAnswer');
 
 });
 Route::get('/info/{link}', 'QuestionController@info')->name('info');
