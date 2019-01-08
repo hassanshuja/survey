@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
+
 use Auth;
 use DB;
 
@@ -39,10 +39,5 @@ class QuestionController extends Controller
     public function info(){
     	// dd()
     }
-=======
 
-class QuestionController extends Controller
-{
-    //
->>>>>>> 98df5812026d76fde9e3661fad161a0c1b6c7b5a
 }
