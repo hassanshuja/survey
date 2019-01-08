@@ -542,14 +542,24 @@
                                 </label>
                             </div>
                             <div class="checkboxes col-md-6">
-                                <input name="check_3_6" id="3_6" type="checkbox" tabindex="1"/>
-                                <label class="green-background col-md-12" for="3_6"> 
-                                3.6 Have you done business under a fictitious name during
-                                the past 10 years? If so, for each fictitious name state:<br>
-                                (a) the name;<br>
-                                (b) the dates each was used;<br>
-                                (c) the state and county of each fictitious name filing; and<br>
-                                (d) the ADDRESS of the principal place of business.
+                                <input name="check_8_6" id="8_6" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="8_6"> 
+                                8.6  State the dates you did not work and for which you lost income as a result of the INCIDENT. </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <div class="checkboxes col-md-6">
+                                <input name="check_8_3" id="8_3" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="8_3"> 
+                                8.3  State the last date before the INCIDENT that you  worked for compensation.
+                                </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_8_7" id="8_7" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="8_7"> 
+                                8.7  State the total income you have lost to date as a result  of the INCIDENT and how the amount was calculated.
                                 </label>
                             </div>
                         </div>
@@ -557,26 +567,58 @@
                     <div class="row">
                         <div class="col">  
                             <div class="checkboxes col-md-6">
-                                <input name="check_3_3" id="3_3" type="checkbox" tabindex="1"/>
-                                <label class="green-background col-md-12" for="3_3"> 
-                               3.3 Are you a limited liability company? If so, state:<br>
-                            (a) the name stated in the current articles of organization;<br>
-                            (b) all other names used by the company during the past 10
-                            years and the date each was used;<br>
-                            (c) the date and place of filing of the articles of organization;
-                            (d) the ADDRESS of the principal place of business; and<br>
-                            (e) whether you are qualified to do business in California.
+                                <input name="check_8_4" id="8_4" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="8_4"> 
+                                8.4  State your monthly income at the time of the INCIDENT and how the amount was calculated.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <label for="one">
+                                <span class="headings">
+                                9.0  Other Damages
+                                </span>
+                            </label>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_9_1" id="9_1" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="9_1"> 
+                                9.1   Are there any other  damages  that you  attribute  to  the INCIDENT? If so, for each item of damage state: <br>
+                                (a)  the nature;<br>
+                                (b)  the date it occurred;<br>
+                                (c)  the amount; and<br>
+                                (d)  the name,  ADDRESS,  and  telephone  number  of  each        PERSON to whom an obligation was incurred.
+                                 </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_9_2" id="9_2" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="9_2"> 
+                                9.2  Do any DOCUMENTS support the existence or amount of any item of damages claimed in interrogatory 9.1? If so, describe each document and state the name, ADDRESS, and telephone number of the PERSON who has each DOCUMENT.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <label for="one">
+                                <span class="headings">
+                                10.0  Medical History 
+                                </span>
+                            </label>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_10_1" id="10_1" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="10_1"> 
+                               10.1  At any time before the INCIDENT did you have  complaints or injuries that involved the same part of your body claimed to have been injured in the INCIDENT? If so, for each state:<br>
+                               (a)  a description of the complaint or injury;<br>
+                                (b)  the dates it began and ended; and <br>
+                                (c)  the name,  ADDRESS,  and  telephone  number  of  each HEALTH CARE PROVIDER whom you consulted or  who examined or treated you.
                                 </label>
                             </div>
                             <div class="checkboxes col-md-6">
-                                <input name="check_3_7" id="3_7" type="checkbox" tabindex="1"/>
-                                <label class="green-background col-md-12" for="3_7"> 
-                                3.7 Within the past five years has any public entity regis-
-                                tered or licensed your business? If so, for each license or
-                                registration:<br>
-                                (a) identify the license or registration;<br>
-                                (b) state the name of the public entity; and<br>
-                                (c) state the dates of issuance and expiration.
+                                <input name="check_10_2" id="10_2" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="10_2"> 
+                                10.2  List all physical, mental , and emotional disabilities you had immediately before the INCIDENT.  (You may omit mental or emotional disabilities unless you attribute any mental or emotional injury to the INCIDENT.)
                                 </label>
                             </div>
                         </div>
@@ -584,18 +626,198 @@
                     <div class="row">
                         <div class="col">  
                             <div class="checkboxes col-md-6">
-                                <input name="check_3_4" id="3_4" type="checkbox" tabindex="1"/>
-                                <label class="green-background col-md-12" for="3_4"> 
-                                3.4 Are you a joint venture? If so, state:<br>
-                                (a) the current joint venture name;<br>
-                                (b) all other names used by the joint venture during the
-                                past 10 years and the dates each was used;<br>
-                                (c) the name and ADDRESS of each joint venturer; and<br>
-                                (d) the ADDRESS of the principal place of business.
+                                <input name="check_10_3" id="10_3" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="10_3"> 
+                                10.3  At any time after the INCIDENT, did you sustain  injuries of the kind for which you are now claiming  damages? If so, for each incident giving rise to an injury state:<br>
+                                (a)  the date and the place it occurred;<br>
+                                (b)  the name, ADDRESS, and telephone number of any other PERSON involved;<br>
+                                (c)  the nature of any injuries you sustained; <br>
+                                (d)  the name,  ADDRESS,  and  telephone  number  of  each HEALTH CARE PROVIDER who you consulted or who examined or treated you; and<br>
+                                (e)  the nature of the treatment and its duration.  
+                                </label>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <label for="one">
+                                <span class="headings">
+                                11.0  Other Claims and Previous Claims
+                                </span>
+                            </label>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_11_1" id="11_1" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="11_1"> 
+                                11.1  Except for this action, in the past 10 years have you filed an action or made a written claim or demand for compensation for your personal injuries? If so, for each action, claim, or demand state:<br>
+                                (a)  the  date,  time,  and  place  and  location  (closest  street ADDRESS or intersection) of the INCIDENT  giving  rise to the action, claim, or demand;<br>
+                                (b)  the name,  ADDRESS,  and  telephone  number  of  each PERSON against whom the claim or demand was made or the action filed; <br>
+                                (c)  the court, names of the parties, and case number  of  any action filed;<br>
+                                (d)  the  name,  ADDRESS,  and  telephone  number  of  any attorney representing you;<br>
+                                (e)  whether  the  claim  or  action  has  been  resolved  or  is pending; and<br>
+                                (f)   a description of the injury
+                             </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_11_2" id="11_2" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="11_2"> 
+                                11.2 In the past 10 years have you made a written claim or demand for workers' compensation benefits? If so, for each claim or demand state:<br>
+                                (a)  the date, time, and place of the INCIDENT giving  rise  to the claim;
+                                (b)  the name, ADDRESS, and telephone number of your employer at the time of the injury;<br>
+                                (c) the name, ADDRESS, and telephone number of the workers’ compensation insurer and the claim number; <br>
+                                (d)  the period of  time  during  which  you  received  workers’ compensation benefits; <br>
+                                (e)  a description of the injury;<br>
+                                (f) the name, ADDRESS, and telephone number of any HEALTH CARE PROVIDER who provided services; and <br>
+                                (g)  the case number at the Workers’ Compensation Appeals Board.
+
                                 </label>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col">  
+                            <label for="one">
+                                <span class="headings">
+                                12.0  Investigation—General
+                                </span>
+                            </label>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_1" id="12_1" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_1"> 
+                                12.1 State the name, ADDRESS, and telephone number of each individual: <br>
+                                (a)  who witnessed the  INCIDENT  or  the  events occurring immediately before or after the INCIDENT; <br>
+                                (b)  who made any statement at the scene of the INCIDENT;<br>
+                                (c)  who heard any statements made about the INCIDENT by any individual at the scene; and<br>
+                                (d)  who YOU OR ANYONE  ACTING  ON  YOUR  BEHALF claim has knowledge of the INCIDENT (except for  expert witnesses covered by Code of Civil Procedure section 2034). 
+                                </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_5" id="12_5" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_5"> 
+                                12.5  Do YOU OR ANYONE ACTING ON YOUR BEHALF know of any diagram, reproduction, or model of any place or thing (except for items developed by expert witnesses covered by Code of Civil Procedure sections 2034.210– 2034.310) concerning the INCIDENT? If so, for each item state: <br>
+                                (a)  the type (i.e., diagram, reproduction, or model);<br>
+                                (b)  the subject matter; and<br>
+                                (c)  the  name,  ADDRESS,  and  telephone  number of  each      PERSON who has it.
+
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_2" id="12_2" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_2"> 
+                                12.2  Have YOU OR ANYONE ACTING ON YOUR  BEHALF interviewed any individual concerning the INCIDENT? If so, for each individual state:<br> 
+                                (a)  the  name,  ADDRESS,  and  telephone  number  of   the individual interviewed; <br>
+                                (b)  the date of the interview; and<br>
+                                 (c)  the  name,  ADDRESS,  and  telephone  number  of   the      PERSON who conducted the interview                                </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_6" id="12_6" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_6"> 
+                                12.6  Was a report made by any PERSON concerning the INCIDENT? If so, state:<br>
+                                (a)  the name,  title,  identification  number,  and  employer  of      the PERSON who made the report;<br>
+                                (b)  the date and type of report made;<br>
+                                (c)  the  name,  ADDRESS,  and  telephone   number  of   the      PERSON for whom the report was made; and<br>
+                                (d)  the name,  ADDRESS,  and   telephone  number  of each      PERSON who has the original or a copy of the report.
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_3" id="12_3" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_3"> 
+                                12.3    Have YOU  OR  ANYONE  ACTING  ON  YOUR BEHALF obtained a written or recorded statement from any individual concerning the INCIDENT? If so, for each statement state:<br>
+                                (a)  the  name,  ADDRESS,  and  telephone  number  of   the      individual from whom the statement was obtained;<br>
+                                (b)  the  name,  ADDRESS,  and  telephone  number  of   the      individual who obtained the statement;<br>
+                                (c)  the date the statement was obtained; and <br>
+                                (d)  the  name, ADDRESS, and  telephone  number  of  each         PERSON who has the original statement or a copy.
+
+
+                                </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_7" id="12_7" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_7"> 
+                                12.7 Have YOU OR ANYONE ACTING ON YOUR  BEHALF inspected the scene of the INCIDENT? If so, for each inspection state:<br>
+                                (a)  the  name,  ADDRESS,  and  telephone   number  of   the individual making the inspection (except for expert witnesses covered  by  Code of  Civil  Procedure  sections 2034.210–2034.310); and <br>
+                                (b)  the date of the inspection.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">  
+                            <div class="checkboxes col-md-6">
+                                <input name="check_12_4" id="12_4" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="12_4"> 
+                                12.4   Do YOU OR ANYONE ACTING ON YOUR BEHALF know of any photographs, films, or videotapes depicting any place, object, or individual concerning the INCIDENT or plaintiff's injuries? If so, state: <br>
+                                (a)  the number of photographs or feet of film or videotape; <br>
+                                (b)  the places, objects, or persons  photographed,  filmed,  or      videotaped; <br>
+                                (c)  the  date  the  photographs,  films,   or   videotapes   were      taken;<br>
+                                (d)  the  name,  ADDRESS,  and   telephone  number  of   the individual taking the photographs, films or videotapes and; <br>
+                                (e)  the name,  ADDRESS,  and  telephone  number  of  each PERSON who has the original or a copy of the photographs, films, or videotapes.
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="row">
+                        <div class="col">  
+                            <label for="one">
+                                <span class="headings">
+                                13.0  Investigation—Surveillance
+                                </span>
+                            </label>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_13_1" id="13_1" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="13_1"> 
+                                13.1  Have YOU OR ANYONE ACTING ON YOUR BEHALF conducted surveillance of any individual involved in the INCIDENT or any party to this action? If so, for each sur- veillance state:<br>
+                                (a)  the  name,  ADDRESS,  and  telephone  number   of   the      individual or party;<br>
+                                (b)  the time, date, and place of the surveillance;<br>
+                                 (c)  the   name,  ADDRESS,  and   telephone  number  of  the      individual who conducted the surveillance; and <br>
+                                (d)  the name,  ADDRESS,  and  telephone  number  of  each PERSON who has the original or a copy of any surveillance photograph, film, or videotape.
+
+                             </label>
+                            </div>
+                            <div class="checkboxes col-md-6">
+                                <input name="check_13_2" id="13_2" type="checkbox" tabindex="1"/>
+                                <label class="green-background col-md-12" for="11_2"> 
+                                13.2 In the past 10 years have you made a written claim or demand for workers' compensation benefits? If so, for each claim or demand state:<br>
+                                (a)  the date, time, and place of the INCIDENT giving  rise  to the claim;
+                                (b)  the name, ADDRESS, and telephone number of your employer at the time of the injury;<br>
+                                (c) the name, ADDRESS, and telephone number of the workers’ compensation insurer and the claim number; <br>
+                                (d)  the period of  time  during  which  you  received  workers’ compensation benefits; <br>
+                                (e)  a description of the injury;<br>
+                                (f) the name, ADDRESS, and telephone number of any HEALTH CARE PROVIDER who provided services; and <br>
+                                (g)  the case number at the Workers’ Compensation Appeals Board.
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
