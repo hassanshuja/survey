@@ -14,18 +14,11 @@ class QuestionsTableSeeder extends Seeder
         $question = new Question();
      	$question->create([
             'q_no'     => '1_1',
-            'question' => 'State the name, ADDRESS, telephone number, and
-							relationship to you of each PERSON who prepared or
-							assisted in the preparation of the responses to these
-							interrogatories. (Do not identify anyone who simply typed or
-							reproduced the responses.)'
+            'question' => 'State the name, ADDRESS, telephone number, and relationship to you of each PERSON who prepared or assisted in the preparation of the responses to these interrogatories. (Do not identify anyone who simply typed or reproduced the responses.)'
         ]);
         $question->create([
             'q_no'     => '2_1',
-            'question' => 'State:<br>
-	                        (a) your name;<br>
-	                        (b) every name you have used in the past; and
-	                        (c) the dates you used each name.<br>'
+            'question' => 'State:<br> (a) your name;<br> (b) every name you have used in the past; and (c) the dates you used each name.<br>'
         ]);
         $question->create([
             'q_no'     => '2_2',
@@ -33,49 +26,23 @@ class QuestionsTableSeeder extends Seeder
         ]);
         $question->create([
             'q_no'     => '2_3',
-            'question' => 'At the time of the INCIDENT, did you have a driver\'s
-                                        license? If so state:<br>
-                                        (a) the state or other issuing entity<br>
-                                        (b) the license number and type<br>
-                                        (c) the date of issuance; and
-                                        (d) all restrictions.<br>'
+            'question' => 'At the time of the INCIDENT, did you have a driver\'s licenslicee? If so state:<br> (a) the state or other issuing entity<br> (b) the license number and type <br> (c) the date of issuance; and (d) all restrictions.<br>'
         ]);
         $question->create([
             'q_no'     => '2_4',
-            'question' => 'At the time of the INCIDENT, did you have any other
-                            permit or license for the operation of a motor vehicle? If so,
-                            state:<br>
-                            (a) the state or other issuing entity;<br>
-                            (b) the license number and type;<br>
-                            (c) the date of issuance; and
-                            (d) all restrictions.'
+            'question' => 'At the time of the INCIDENT, did you have any other permit or license for the operation of a motor vehicle? If so, state:<br> (a) the state or other issuing entity;<br> (b) the license number and type;<br> (c) the date of issuance; and (d) all restrictions.'
         ]);
         $question->create([
             'q_no'     => '2_5',
-            'question' => 'State:<br>
-                            (a) your present residence ADDRESS;<br>
-                            (b) your residence ADDRESSES for the past five years; and
-                            (c) the dates you lived at each ADDRESS.'
+            'question' => 'State:<br> (a) your present residence ADDRESS;<br> (b) your residence ADDRESSES for the past five years; and (c) the dates you lived at each ADDRESS.'
         ]);
         $question->create([
             'q_no'     => '2_6',
-            'question' => 'State:
-                            (a) the name, ADDRESS, and telephone number of your
-                            present employer or place of self-employment; and <br>
-                            (b) the name, ADDRESS, dates of employment, job title,
-                            and nature of work for each employer or
-                            self-employment you have had from five years before
-                            the INCIDENT until today.'
+            'question' => 'State: (a) the name, ADDRESS, and telephone number of your present employer or place of self-employment; and <br> (b) the name, ADDRESS, dates of employment, job title, and nature of work for each employer or self-employment you have had from five years before the INCIDENT until today.'
         ]);
         $question->create([
             'q_no'     => '2_7',
-            'question' => ' State:
-                            (a) the name and ADDRESS of each school or other
-                            academic or vocational institution you have attended,
-                            beginning with high school;<br>
-                            (b) the dates you attended;<br>
-                            (c) the highest grade level you have completed; and
-                            (d) the degrees received.'
+            'question' => ' State: (a) the name and ADDRESS of each school or other academic or vocational institution you have attended, beginning with high school;<br> (b) the dates you attended;<br> (c) the highest grade level you have completed; and <br> (d) the degrees received.'
         ]);
         $question->create([
             'q_no'     => '2_8',
@@ -868,35 +835,23 @@ each PERSON who has custody of each defective part.'
         ]);
         $question->create([
             'q_no'     => '50_2',
-            'question' => 'Was there a breach of any agreement alleged in the
-							pleadings? If so, for each breach describe and give the date
-							of every act or omission that you claim is the breach of the
-							agreement.'
+            'question' => 'Was there a breach of any agreement alleged in the pleadings? If so, for each breach describe and give the date of every act or omission that you claim is the breach of the agreement.'
         ]);
         $question->create([
             'q_no'     => '50_3',
-            'question' => 'Was performance of any agreement alleged in the
-							pleadings excused? If so, identify each agreement excused
-							and state why performance was excused.'
+            'question' => 'Was performance of any agreement alleged in the pleadings excused? If so, identify each agreement excused and state why performance was excused.'
         ]);
         $question->create([
             'q_no'     => '50_4',
-            'question' => 'Was any agreement alleged in the pleadings terminated
-							by mutual agreement, release, accord and satisfaction, or
-							novation? If so, identify each agreement terminated, the date
-							of termination, and the basis of the termination.'
+            'question' => 'Was any agreement alleged in the pleadings terminated by mutual agreement, release, accord and satisfaction, or novation? If so, identify each agreement terminated, the date of termination, and the basis of the termination.'
         ]);
         $question->create([
             'q_no'     => '50_5',
-            'question' => 'Is any agreement alleged in the pleadings unenforce-
-							able? If so, identify each unenforceable agreement and
-							state why it is unenforceable.'
+            'question' => 'Is any agreement alleged in the pleadings unenforce- able? If so, identify each unenforceable agreement and state why it is unenforceable.'
         ]);
         $question->create([
             'q_no'     => '50_6',
-            'question' => 'Is any agreement alleged in the pleadings ambiguous?
-							If so, identify each ambiguous agreement and state why it is
-							ambiguous.'
+            'question' => 'Is any agreement alleged in the pleadings ambiguous?If so, identify each ambiguous agreement and state why it is ambiguous.'
         ]);
 
     }

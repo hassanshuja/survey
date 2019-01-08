@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Input;
 use Auth;
 use DB;
 use App\Question;
+use App\User;
+use Mail;
 
 class QuestionController extends Controller
 {
@@ -60,14 +62,46 @@ class QuestionController extends Controller
 
     public function submitAnswer(Request $request) {
       $uri = $request->path();
-      dd($uri, $request->all());
       $data = $request->all();
-      unset($answers['_token']);
+      $link = $data['link'];;
+      // dd($data);
+      unset($data['_token']);
+      unset($data['link']);
       $answers = json_encode($data);
-      
-      foreach($data as $key => $value) {
-        dd($key, $value);
-      }
+      $update_answer = [
+        'answer_json' => $answers
+      ];
+      $linkdatatable = DB::table('link_data')->select('*')->where('link', $link)->get()->first();
+      $client_email = User::where('id',$linkdatatable->user_id)->value('email');
+      // dd($client_email);
+      $query = DB::table('link_data')->where('link', $link)->update($update_answer);
+      /* Generate Docs File */
+        $phpWord = new \PhpOffice\PhpWord\PhpWord();
+        $section = $phpWord->addSection();
+        foreach($data as $key => $value) {
+          $no = str_replace("_", ".", $key);
+          $question = Question::where('q_no', $key)->value('question');
+          
+          $question = $no . ' ' . $question;
+          $question = preg_replace('/\s+/', ' ',$question);
+          $question = str_replace("<br>", "\n", $question);
+          
+          $questionlines = explode("\n", $question);
+          for ($i = 0; $i < sizeof($questionlines); $i++) {
+            $text = $section->addText($questionlines[$i],array('name'=>'Calibri','size' => 11, 'bold' => true, 'lineHeight' => 1.2, 'spacing' => 1.15));
+          }
+          $text = $section->addText('<w:br/>',array('name'=>'Calibri','size' => 11));
+          $text = $section->addText('Answer', array('name' => 'Calibri', 'size' => 11, 'bold' => true));
+          $text = $section->addText('<w:br/>',array('name'=>'Calibri','size' => 11));
+          $text = $section->addText($value.'<w:br/>',array('name'=>'Calibri','size' => 11, 'lineHeight' => 1.3, 'spacing' => 1.15));
+          $text = $section->addText('<w:br/>',array('name'=>'Calibri','size' => 11));
+        }
+        $objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+        $objWriter->save('Answer_'.$link.'.docx');
+        response()->download(public_path('Answer_'.$link.'.docx'));
+        \Mail::to('superadmin@yopmail.com')
+        ->cc('stevanlai@yahoo.com.sg');
+        return redirect('/home');
     }
 
 }

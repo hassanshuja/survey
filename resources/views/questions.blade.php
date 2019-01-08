@@ -15,10 +15,13 @@
                             </div>
                         </div>
                         @foreach($questions as $res)
+                        @php
+                        $res->question = str_replace("<br>", "\n\n", $res->question);
+                        @endphp
                         <div class="row">
                             <div class="col col-md-8 question"> 
                                <div class="checkboxes">
-                                   <label class="green-background col-md-12" for="q-{{ $res->q_no}}"><b>{{ $res->q_no}}</b> {{ $res->question }}</label>
+                                   <p class="green-background col-md-12" for="q-{{ $res->q_no}}"><b>{{ $res->q_no}}</b> {{ htmlspecialchars_decode($res->question) }}</p>
                                </div>
                             </div>
                             <div class="answer">
