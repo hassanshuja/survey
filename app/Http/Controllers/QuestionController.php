@@ -98,9 +98,12 @@ class QuestionController extends Controller
         }
         $objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
         $objWriter->save('Answer_'.$link.'.docx');
-        response()->download(public_path('Answer_'.$link.'.docx'));
-        \Mail::to('superadmin@yopmail.com')
-        ->cc('stevanlai@yahoo.com.sg');
+        \Mail::send('emails.attachment', ['title' => 'Title', 'content' => 'Content'], function ($message) use ($link, $client_email)
+        {
+            $message->from('clientemail@mail.com');
+            $message->to($client_email);
+            $message->attach(public_path('Answer_'.$link.'.docx'));
+        });
         return redirect('/home');
     }
 
