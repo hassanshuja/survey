@@ -11,6 +11,7 @@ use App\Question;
 use App\User;
 use Mail;
 
+
 class QuestionController extends Controller
 {
     public function generateFile(Request $request){
@@ -39,11 +40,26 @@ class QuestionController extends Controller
   			'client_email' => $client_email
   		);
 
-  		// dd($data);
 
-  		DB::table('link_data')->insert($data);
+      DB::table('link_data')->insert($data);
+      $to_name = $client_email;
+      $to_email = $client_email;
+      $mail_data = array("name" => $to_name, "body" => url('/').'/info/'.$random_link);
 
-  		return redirect()->route( 'successlink' )->with(['link' => $random_link ]);
+
+
+   try{       
+    Mail::send('emails.mail', $mail_data, function($message) use ($to_name, $to_email) {
+          $message->to($to_email, $to_name)
+                  ->subject('Lawyer App Questionnaire Link');
+          $message->from('support@lawyerapp.com','Lawyer App Support');
+        });
+      }
+        catch(Exception $e){
+            
+    }
+
+return redirect()->route( 'successlink' )->with(['link' => $random_link ]);
     }
 
     public function info($link){ 	
@@ -51,11 +67,12 @@ class QuestionController extends Controller
     	$query = DB::table('link_data')->where('link', $link);
       $res = $query->get();
 
+
       $all_question = json_decode($res[0]->question_json);
 
       $questions = Question::whereIn('q_no', $all_question)->get();
 
-      // dd($questions, $all_question);
+
 
       return \View::make('questions', compact('questions','link'));
     }
