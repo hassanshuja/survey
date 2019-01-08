@@ -25,4 +25,13 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function successlink(){
+
+        if(session()->get('link')){
+            return view('successlink');
+        }else{
+            return redirect()->route('home');
+        }
+    }
 }

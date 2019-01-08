@@ -12,7 +12,7 @@
                         <div class="alert alert-success">
                             click here 
                             <a href="http://{{ url('/').'/info/'. session()->get('link') }}">
-                                http://{{ url('/').'/info/'. session()->get('link') }}
+                                {{ 'http://' .url('/').'/info/'. session()->get('link') }}
                             </a>
                         </div>
                     @endif

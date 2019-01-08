@@ -18,6 +18,7 @@ class CreateLinkDataTable extends Migration
             $table->integer('user_id');
             $table->longText('question_json');
             $table->string('link');
+            $table->string('client_email');
             $table->timestamps();
         });
     }

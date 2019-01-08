@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => 'auth'], function () {
+
+Route::post('/generateFile', 'QuestionController@generateFile')->name('generateFile');
+Route::get('/successlink', 'HomeController@successlink')->name('successlink');
+
+});
+Route::get('/info/{link}', 'QuestionController@info')->name('info');
