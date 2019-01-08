@@ -53,8 +53,9 @@ class QuestionController extends Controller
 
       $questions = Question::whereIn('q_no', $all_question)->get();
 
-      dd($questions);
-      
+      // dd($questions);
+
+      return \View::make('questions', compact('questions'));
     }
 
 }
